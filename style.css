@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containet{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.box{
+    width: 550px;
+    background-color: gray;
+    margin: 200px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+#son-input{
+    width: 250px;
+    height: 55px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+#send{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+.ota button{
+    width: 70px;
+    font-size: 70px;
+    background-color: inherit;
+    border: none;
+}
+.ota h1{
+    font-size: 70px;
+}
+#plus:active{
+    background-color: green;
+}
+#minus:active{
+    background-color: red;
+}
+label{
+    font-size: 30px;
+    margin-right: 30px;
+}
